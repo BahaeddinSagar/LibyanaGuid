@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ly.bsagar.libyanaguid.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_build_black_24dp"
+
+        />
+    <item
+        android:id="@+id/action_lang"
+        android:orderInCategory="80"
+        android:title="Change Language"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_language_black_24dp"
+
+
+        />
+
+</menu>

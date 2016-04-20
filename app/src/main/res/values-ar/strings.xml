@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">دليل ليبيانا</string>
+    <string name="action_settings">الاعدادات</string>
+    <string name="title_activity_send__balance">ارسال الرصيد</string>
+    <string name="services">الخدمات</string>
+    <string name="pay4me">خدمة علي حسابك</string>
+    <string name="sendBalance">ارسال الرصيد</string>
+    <string name="damaged">الكروت المكشوطة</string>
+    <string name="checkBalance">تفقد الرصيد</string>
+    <string name="ContactChooserPay4me">اختر الشخص الذي تريد الاتصال به</string>
+    <string name="manageLists">ادارة القائمة السوداء و البيضاء</string>
+    <string name="call125">اتصل بـ125</string>
+    <string name="reset">تعيين كلمة مرور جديدة</string>
+    <string name="howMuchBalance">كم تريد ان ترسل من الرصيد</string>
+    <string name="contactChooserSend">اختر الشخص الذي تريد ارسال الرصيد له</string>
+    <string name="internetService">خدمة الانترنت</string>
+    <string name="callWaiting">انتظار المكالمات</string>
+    <string name="missedCallNotification">التنبيه بالمكالمات الفائتة</string>
+    <string name="isitdualsim">هل الهاتف يحتوي علي شفرتين ؟</string>
+    <string name="islibyanaprimary">هل ليبيانا هي الشفرة الأساسية ؟</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="dualsim">الهاتف يحتوي علي شفرتين</string>
+    <string name="primary">ليبيانا هي الشفرة الأساسية</string>
+    <string name="rate">تقييم التطبيق</string>
+    <string name="share">نشر التطبيق</string>
+    <string name="phoneType">نوع الهاتف</string>
+    <string name="myname">تم تصميم و برمجة هذا التطبيق من قبل بهاء الدين صقر</string>
+    <string name="tradeMark">كل الشعارات والأسماء التجارية والعلامات التجارية هي ملك لاصحابها</string>
+    <string name="welcome">أهلا وسهلا بك في تطبيق دليل ليبيانا</string>
+    <string name="easy">خدمات ليبيانا أصبحت أسهل</string>
+    <string name="tour">هذه جولة بسيطة في هذا التطبيق</string>
+    <string name="changelanguage">For English, click here</string>
+    <string name="whatdoesthisappdo">هذا التطبيق يحتوي على الخدمات التالية:</string>
+    <string name="servicesss">من هنا يمكنك إدارة خدمات ليبيانا</string>
+    <string name="pay4mepay4me">خدمة علي حسابك, من هنا تتصل علي حساب المستقبل</string>
+    <string name="sendbalancesend">إرسال الرصيد، من هنا يمكنك إرسال رصيد إلى صديق أو قريب</string>
+    <string name="damagedvouchercards">من هنا بامكانك استعادة الكروت المكشوطة خطأ</string>
+    <string name="checkbalancece">تحقق الرصيد، اضغط هنا لمعرفة كمية الرصيد لديك</string>
+    <string name="clicktoenable">اضغط علي هذا الزر لتفعيل الخدمة</string>
+    <string name="clicktodisable">اضغط علي هذا الزر لالغاء الخدمة</string>
+    <string name="thisisdualsim">هذا الهاتف يحتوي على شفرتين</string>
+    <string name="thisissinglesim">هذا الهاتف يحتوى علي شفرة واحدة</string>
+    <string name="libyanaprimary">اتصال أو طلب : اتصال</string>
+    <string name="libyanaNotPrimary">تصال أو طلب : طلب</string>
+    <string name="change">تغيير نوع الهاتف</string>
+
+    <string name="choosephonetype">اختر نوع جهازك</string>
+    <string name="DualOrSingle">شفرة أو شفرتين</string>
+    <string name="CallOrDual">للأجهزة ذوات الشفرتين, ان كان الجهاز يتصل من شفرة ليبيانا تلقائيا اضغط علي اتصال, و ان لم يكن كذلك اضغط علي طلب \n ملاحظة: ان احترت في الاختيار اضغط علي طلب</string>
+    <string name="dialorcall">اتصال أو طلب الرقم</string>
+    <string name="singlesim">شفرة واحدة</string>
+    <string name="call">اتصال</string>
+    <string name="dial">طلب</string>
+
+    <string name="servicediscription">بامكانك ادارة الخدمات من هذا التطبيق كالتالي:</string>
+    <string name="servicemanage">بامكانك التحكم في هذه الخدمات عن طريق الازرار التالية</string>
+    <string name="almostthere">انتهينا !</string>
+    <string name="Thankyou">شكرا لك لاستخدامك تطبيق دليل ليبيانا</string>
+    <string name="foranycomments">لأي استفسار أو شكوى, الرجاء التواصل علي الايميل:</string>
+    <string name="thatsit">شكرا لاستخدامك تطبيق دليل ليبيانا, اضغط على ابدأ لفتح الصفحة الرئيسية</string>
+    <string name="done">ابدأ</string>
+    <string name="Pay4me">على حسابك</string>
+    <string name="BalanceSend">ارسال الرصيد</string>
+    <string name="Services">الخدمات</string>
+</resources>

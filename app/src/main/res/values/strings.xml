@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Libyana Guide</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_send__balance">Send_Balance</string>
+    <string name="services">Services</string>
+    <string name="pay4me">Pay4Me</string>
+    <string name="sendBalance">Send Balance</string>
+    <string name="damaged">Damaged
+        Voucher</string>
+    <string name="checkBalance">Check Balance</string>
+    <string name="ContactChooserPay4me">Choose the contact you want to call</string>
+    <string name="manageLists">Manage White And Black Lists</string>
+    <string name="call125">Call 125</string>
+    <string name="reset">Reset Password</string>
+    <string name="howMuchBalance">How much balance do you want to send</string>
+    <string name="contactChooserSend">Choose the contact you want to send balance to</string>
+    <string name="internetService">Internet Service</string>
+    <string name="callWaiting">Call Waiting</string>
+    <string name="missedCallNotification">Missed Calls Notifications</string>
+    <string name="isitdualsim">Is This Phone Dual Sim ?</string>
+    <string name="islibyanaprimary">Is Libyana Sim1 ?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="dualsim">Dual Sim</string>
+    <string name="primary">Libyana Primary Sim</string>
+    <string name="rate">Rate App</string>
+    <string name="share">Share App</string>
+    <string name="phoneType">Phone Type</string>
+    <string name="myname">This program was designed and implemented by Bahaeddin Sagar</string>
+    <string name="tradeMark">All logos, trade names, and trade marks are property of their respective owner</string>
+    <string name="welcome">Welcome to Libyana Guide,</string>
+    <string name="easy">Libyana made easy</string>
+    <string name="tour">This is a quick tutorial for using the app</string>
+    <string name="changelanguage">للعربية اضعط هنا</string>
+    <string name="whatdoesthisappdo">this app have the following main buttons</string>
+    <string name="servicesss">from here you can manage Libyana Services</string>
+    <string name="pay4mepay4me">Pay4Me, where the call is paid for by the reciepient</string>
+    <string name="sendbalancesend">Send Balance, from here you can send balance to friend or family</string>
+    <string name="damagedvouchercards">this is where you can reclaim damaged voucher cards</string>
+    <string name="checkbalancece">Check Balance, Click here to see how much balance you have</string>
+    <string name="clicktoenable">click this button to enable service</string>
+    <string name="clicktodisable">click this button to disable service</string>
+    <string name="thisisdualsim">-This phone contains two sim cards</string>
+    <string name="thisissinglesim">-This phone contains one sim cards</string>
+    <string name="libyanaprimary">-Call or Dial: CALL</string>
+    <string name="libyanaNotPrimary">-Call or Dial: DIAL</string>
+    <string name="change">change phone type</string>
+
+
+    <string name="choosephonetype">Choose your Phone Type</string>
+    <string name="DualOrSingle">Single SIM or Dual SIM Phone</string>
+    <string name="CallOrDual">for Dual SIM phones, if Libyana is the SIM that phone uses by default Click CALL, otherwise Click Dial \nhint: if you are unsure, Click Dial</string>
+    <string name="dialorcall">Call or Dial</string>
+    <string name="singlesim">Single Sim</string>
+    <string name="call">Call</string>
+    <string name="dial">Dial</string>
+    <string name="servicediscription">you can manage services from this app such as:</string>
+    <string name="servicemanage">you can manage these services using the following buttons</string>
+    <string name="almostthere">Almost there !</string>
+    <string name="Thankyou">thank you for using Libyana Guide</string>
+    <string name="foranycomments">for any comments or complains, Kindly send email to:</string>
+    <string name="thatsit">Thats it!, click done and answer the questions to get started</string>
+    <string name="done">Done</string>
+    <string name="Pay4me">Pay for me</string>
+    <string name="BalanceSend">Send Balance</string>
+    <string name="Services">Services</string>
+</resources>

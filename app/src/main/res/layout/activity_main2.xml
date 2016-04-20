@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="ly.bsagar.libyanaguid.MainActivity"
+        tools:showIn="@layout/activity_main2"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/fab_margin"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <LinearLayout
+
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="@dimen/fab_margin"
+                android:layout_weight="1"
+                android:layout_width="0dp">
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/services"
+                    android:layout_width="@dimen/fab_size"
+                    android:layout_height="@dimen/fab_size"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_view_list_black_24dp"
+                    android:onClick="services"
+                    android:background="@color/colorAccent"
+                    android:layout_marginBottom="@dimen/fab_margin"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/services"
+                    android:gravity="center"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="@dimen/fab_margin"
+                >
+
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/pay4me"
+                    android:scaleType="fitCenter"
+                    android:layout_width="@dimen/fab_size"
+                    android:layout_height="@dimen/fab_size"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="16dp"
+                    android:src="@drawable/ic_call_made_black_24dp"
+                    android:onClick="pay4me"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:layout_gravity="center"
+                    android:text="@string/pay4me"
+                    android:gravity="center"
+                    />
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="@dimen/fab_margin"
+                >
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/sendbalance"
+                    android:layout_width="@dimen/fab_size"
+                    android:layout_height="@dimen/fab_size"
+                    android:layout_gravity="center"
+                    android:onClick="sendbalance"
+                    android:layout_marginBottom="@dimen/fab_margin"
+                    android:src="@drawable/ic_attach_money_black_24dp" />
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/sendBalance" />
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="@dimen/activity_horizontal_margin"
+            >
+
+            <ImageView
+                android:clickable="true"
+                android:onClick="damaged"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_libaya_icon"
+                android:contentDescription="@string/damaged"
+                android:layout_marginBottom="@dimen/fab_margin"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/damaged"
+                android:gravity="center"
+
+                />
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:paddingBottom="2dp"
+
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="2dp"
+            android:scaleType="fitXY" />
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+
+            <android.support.design.widget.FloatingActionButton
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+
+                android:layout_width="@dimen/fab_size"
+                android:layout_height="@dimen/fab_size"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:onClick="balance"
+                android:src="@drawable/ic_autorenew_black_24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/checkBalance" />
+
+        </LinearLayout>
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-5706305242969303/5097869675"
+
+            >
+        </com.google.android.gms.ads.AdView>
+    </LinearLayout>
+</ScrollView>
