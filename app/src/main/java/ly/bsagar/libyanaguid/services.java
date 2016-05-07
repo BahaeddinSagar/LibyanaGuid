@@ -1,15 +1,18 @@
 package ly.bsagar.libyanaguid;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.net.Uri;
 import android.support.v4.app.NavUtils;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
@@ -120,8 +123,73 @@ public class services extends AppCompatActivity {
         sendsms("0", 133);
     }
 
+    public void First(View view) {checkbeforecalling(1);}
 
-    //shared method for sending SMS
+    public void Second(View view) {checkbeforecalling(2);}
+
+    public void Third(View view){checkbeforecalling(3);}
+
+    public void Fourth(View view){checkbeforecalling(4);}
+
+    public void Status(View view) {
+        call("*222#");
+    }
+
+    public void Cancel(View view){checkbeforecalling(6);}
+
+
+
+    public void checkbeforecalling(int x) {
+        AlertDialog.Builder alertDialogBuilder = new android.support.v7.app.AlertDialog.Builder(this);
+        String numberToCall = null;
+        switch (x) {
+            case 1:
+                alertDialogBuilder.setMessage(R.string.paymoney1);
+                numberToCall="*555*3#";
+                break;
+            case 2:
+                alertDialogBuilder.setMessage(R.string.paymoney2);
+                numberToCall="*555*4#";
+                break;
+            case 3:
+                alertDialogBuilder.setMessage(R.string.paymoney3);
+                numberToCall="*555*5#";
+                break;
+            case 4:
+                alertDialogBuilder.setMessage(R.string.paymoney4);
+                numberToCall="*555*6#";
+                break;
+            case 5:
+                alertDialogBuilder.setMessage(R.string.paymoney5);
+                numberToCall="*222#";
+                break;
+            case 6:
+                alertDialogBuilder.setMessage(R.string.paymoney6);
+                numberToCall="*444#";
+                break;
+        }
+            final String calll = numberToCall;
+            alertDialogBuilder.setTitle(R.string.internetpackages);
+            alertDialogBuilder.setIcon(R.drawable.ic_call_black_24dp);
+            alertDialogBuilder.setCancelable(false);
+            alertDialogBuilder.setPositiveButton(R.string.yes, new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface arg0, int arg1) {
+                    call(calll);
+                }
+            });
+            //if no, then just exit
+            alertDialogBuilder.setNegativeButton(R.string.no, new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+                }
+            });
+        AlertDialog alertDialog = alertDialogBuilder.create();
+        alertDialog.show();
+
+    }
+        //shared method for sending SMS
+
     public void sendsms(String body, int number) {
         Intent sendIntent = new Intent();
         sendIntent.setAction(Intent.ACTION_VIEW);
@@ -135,7 +203,6 @@ public class services extends AppCompatActivity {
     public void call(String number) {
 
         SharedPreferences sharedPreferences;
-
         sharedPreferences = getSharedPreferences("guide", MODE_PRIVATE);
         boolean isDualSIM = sharedPreferences.getBoolean("isdualsim", true);
         boolean isPrimary = sharedPreferences.getBoolean("isLibyana", false);
@@ -154,7 +221,5 @@ public class services extends AppCompatActivity {
         }
         intent.setData(Uri.parse(String.format("tel:%s", Uri.encode(number))));
         startActivity(intent);
-
     }
-
 }

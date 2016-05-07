@@ -64,4 +64,13 @@
     <string name="Pay4me">Pay for me</string>
     <string name="BalanceSend">Send Balance</string>
     <string name="Services">Services</string>
+
+
+    <string name="internetpackages">Internet Packages</string>
+    <string name="paymoney1">this will give you 50 MB and cost you 2.5 LYD per month, continue ?</string>
+    <string name="paymoney2">this will give you 100 MB and cost you 4 LYD per month, continue ?</string>
+    <string name="paymoney3">this will give you 300 MB and cost you 9 LYD per month, continue ?</string>
+    <string name="paymoney4">this will give you 500 MB and cost you 12.5 LYD per month, continue ?</string>
+    <string name="paymoney5">this will check the status of your current subscription, continue ?</string>
+    <string name="paymoney6">this will cancel your current subscription, continue ?</string>
 </resources>

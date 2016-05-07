@@ -64,4 +64,12 @@
     <string name="Pay4me">على حسابك</string>
     <string name="BalanceSend">ارسال الرصيد</string>
     <string name="Services">الخدمات</string>
+
+
+    <string name="internetpackages"> باقات الانترنت </string>
+    <string name="paymoney1">سيتم سجب 2.5 دينار مقايل 50 ميقا بايت شهريا , هل تود المتابعة ؟</string>
+    <string name="paymoney2">سيتم سجب 4 دينار مقايل 100 ميقا بايت شهريا , هل تود المتابعة ؟</string>
+    <string name="paymoney3">سيتم سجب 9 دينار مقايل 300 ميقا بايت شهريا , هل تود المتابعة ؟</string>
+    <string name="paymoney4">سيتم سجب 12.5 دينار مقايل 500 ميقا بايت شهريا , هل تود المتابعة ؟</string>
+    <string name="paymoney6">سيتم الغاء الاشتراك الشهري , هل تود المتابعة ؟</string>
 </resources>

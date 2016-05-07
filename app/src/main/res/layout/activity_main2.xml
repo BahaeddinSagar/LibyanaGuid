@@ -129,12 +129,12 @@
             android:padding="@dimen/activity_horizontal_margin"
             >
 
-            <ImageView
+            <android.support.design.widget.FloatingActionButton
                 android:clickable="true"
                 android:onClick="damaged"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ic_libaya_icon"
+                android:layout_width="@dimen/fab_size"
+                android:layout_height="@dimen/fab_size"
+                android:src="@drawable/ic_payment_black_24dp"
                 android:contentDescription="@string/damaged"
                 android:layout_marginBottom="@dimen/fab_margin"
                 />

@@ -75,7 +75,7 @@
             <android.support.design.widget.FloatingActionButton
                 android:layout_width="65dp"
                 android:layout_height="65dp"
-                android:src="@drawable/ic_payment_black_24dp"
+                android:src="@drawable/ic_attach_money_black_24dp"
                 />
 
             <TextView
@@ -96,11 +96,10 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/activity_horizontal_margin">
 
-            <ImageView
+            <android.support.design.widget.FloatingActionButton
                 android:layout_width="65dp"
                 android:layout_height="65dp"
-                android:src="@drawable/ic_libaya_icon"
-
+                android:src="@drawable/ic_payment_black_24dp"
                 />
 
             <TextView
